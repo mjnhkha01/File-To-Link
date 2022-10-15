@@ -57,12 +57,11 @@ async def start(b, m):
                 return
         await m.reply_photo(
             photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
-            caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
+            caption="**Xin chào...⚡\n\nTôi là con Bot được tạo ra để tự động lấy link file upload từ telegram**\n\n**Hãy gửi cho tôi bất kỳ file, hoặc video clip nào, tôi sẽ gửi lại cho bạn link download nhanh max speed.**\n\n**LƯU Ý dung lượng file:**\n\n**<= 2GB đối với tài khoản Telegram miễn phí**\n\n**<= 4GB đối với tài khoản Telegram Premium)\n\nĐối với file video streaming bạn chỉ cần copy link và chèn vào video player của bạn.**\n\n**Gõ lệnh /help để xem hướng dẫn sử dụng.**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇᴢ ⚡", url="https://t.me/MWUpdatez"), InlineKeyboardButton("⚡ sᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/OpusTechz")],
-                    [InlineKeyboardButton("💸 ᴅᴏɴᴀᴛᴇ 💸", url="https://paypal.me/114912Aadil"), InlineKeyboardButton("💠 ɢɪᴛʜᴜʙ 💠", url="https://github.com/Aadhi000")],
-                    [InlineKeyboardButton("💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://youtube.com/opustechz")]
+                    [InlineKeyboardButton("⚡ Kênh Telegram chính thức ⚡", url="https://t.me/win10dotvn"),
+                    [InlineKeyboardButton("💸 Donate 💸", url="https://sharemienphi.com/donate")]
                 ]
             ),
             
