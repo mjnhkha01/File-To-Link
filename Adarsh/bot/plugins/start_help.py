@@ -56,7 +56,7 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
+            photo="https://telegra.ph/file/b9e78db647e3ab01b0753.png",
             caption="**Xin chao...⚡\n\nBan chi can gui file hoac chuyen tiep file, video cho toi, toi se gui cho ban link download nhanh, max speed**\n\n**Go lenh /help de biet them chi tiet\n\n🚸 Luu y: Noi dung 18+, phan dong se bi ban nick ngay ma khong can bao truoc!**",
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -171,7 +171,7 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
+            photo="https://telegra.ph/file/b9e78db647e3ab01b0753.png",
             caption="**┣⪼ Ban co the gui file hoac chuyen tiep file den, Bot se gui cho ban link download nhanh, max speed, never die !**", 
   
         
@@ -222,7 +222,7 @@ async def about_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_photo(
-            photo="https://telegra.ph/file/3cd15a67ad7234c2945e7.jpg",
+            photo="https://telegra.ph/file/b9e78db647e3ab01b0753.png",
             caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
 
 <b>╭━━━━━━━〔Upload file mien phi〕</b>
