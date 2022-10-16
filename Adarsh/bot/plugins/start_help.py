@@ -177,7 +177,7 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ XEM HUONG DAN CHI TIET ⚡", url="https://bit.do/hdsdbot")]
+                [InlineKeyboardButton("⚡ XEM HUONG DAN CHI TIET ⚡", url="https://www.youtube.com/watch?v=6SOERR302B8")]
             ]
         )
     )
