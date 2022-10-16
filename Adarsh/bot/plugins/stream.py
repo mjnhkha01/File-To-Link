@@ -50,7 +50,7 @@ async def private_receive_handler(c: Client, m: Message):
     if MY_PASS:
         check_pass = await pass_db.get_user_pass(m.chat.id)
         if check_pass== None:
-            await m.reply_text("Login first using /login cmd \nDon't know the password contact @ArjunVR_AVR")
+            await m.reply_text("Login first using /login cmd \nDon't know the password contact @BinLate")
             return
         if check_pass != MY_PASS:
             await pass_db.delete_user(m.chat.id)
@@ -74,11 +74,11 @@ async def private_receive_handler(c: Client, m: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=m.chat.id,
-                text="""<i>ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ..**</i>""",
+                text="""<i>Tham gia Channel de su dung Bot... Chi thanh vien trong Channel moi duoc su dung Bot lay link download file telegram nay..!**</i>""",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("ᴊᴏɪɴ ɴᴏᴡ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("Tham gia Channel Telegram", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
                 )
