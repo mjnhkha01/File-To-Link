@@ -113,7 +113,7 @@ async def private_receive_handler(c: Client, m: Message):
 
 <b>🖥 XEM ONLINE :- </b> <i><b>{}</b></i>
 
-<b>♻️ LINK DOWNLOAD KHONG BAO GIO HET HAN ! ♻️\n\n❖ Https://muabanquyen.com</b>"""
+<b>♻️ BETA TEST ♻️\n\n❖ Https://muabanquyen.com</b>"""
 
         await log_msg.reply_text(text=f"**UPLOAD BOI :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**USER ID :** `{m.from_user.id}`\n**STREAM LINK :** {stream_link}", disable_web_page_preview=True, quote=True)
         await m.reply_text(
