@@ -223,7 +223,7 @@ async def about_handler(bot, message):
             return
     await message.reply_photo(
             photo="https://telegra.ph/file/b9e78db647e3ab01b0753.png",
-            caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
+            caption="""<b>Bin.Late</b>
 
 <b>╭━━━━━━━〔Upload file mien phi〕</b>
 ┃
