@@ -74,7 +74,7 @@ async def private_receive_handler(c: Client, m: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=m.chat.id,
-                text="""<i>Tham gia Channel de su dung Bot... Chi thanh vien trong Channel moi duoc su dung Bot lay link download file telegram nay..!**</i>""",
+                text="""Tham gia Channel de su dung Bot..**\n\n**Chi thanh vien trong Channel moi duoc su dung Bot lay link download file telegram nay..!""",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
